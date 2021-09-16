@@ -55,8 +55,3 @@ attr_accessor :isbn, :price
     format("$%.2f", @price)
   end
 end
-
-data = []
-n = 0
-answer_3 = sum_to_n?(data,n)
-puts %Q{sum_to_n?(#{data}, #{n}) = #{answer_3}}
